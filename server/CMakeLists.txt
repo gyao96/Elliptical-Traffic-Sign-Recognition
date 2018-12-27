@@ -1,0 +1,6 @@
+cmake_minimum_required(VERSION 2.8)
+project( test )
+find_package( OpenCV REQUIRED )
+add_executable( test common.cpp common.h EllipseDetectorYaed.cpp EllipseDetectorYaed.h hsiModel.cpp hsiModel.h neuralNet.cpp neuralNet.h newServer.cpp newServer.h Main.cpp)
+target_link_libraries( test ${OpenCV_LIBS} )
+add_definitions(-std=c++11)
