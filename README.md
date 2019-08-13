@@ -17,10 +17,10 @@ Traffic Sign Recognition (TSR) has been an important topic of autonomous driving
 
 Then we tested our model on real data streams and deploy it onto a raspi 3b+ driven vehicle. The camera on the vehicle continuously streams video data to our computer via Ethernet or WiFi. After running the algorithm, an instruction code is sent back to the vehicle to perform corresponding actions accordingly.
 
-![System Preview](Resources/cloud.png)
+![System Preview](Resources/cloud.PNG)
 
 ### Fast Ellipse Detection Algorithm
-Please <a href="/Resources/TSR.pdf">Download our report</a> and read through Chapter 2.1 for the details of how we modify and implement our version of the algorithm. Code is written in c++-11 under directory `/server/EllipseDetectorYaed.cpp`.
+Please <a href="Resources/TSR_ZJU.pdf">Download our report</a> and read through Chapter 2.1 for the details of how we modify and implement our version of the algorithm. Code is written in c++-11 under directory `/server/EllipseDetectorYaed.cpp`.
 
 In short, the algorithm can be decomposed to the following steps:
 - Arch extraction
@@ -31,7 +31,7 @@ In short, the algorithm can be decomposed to the following steps:
 The overall running speed of segmenting one frame is between 5 to 15 ms, which is much more efficient than traditional Hough-transform method.
 
 ### Training
-Please refer to Chapter 2.2 in <a href="/Resources/TSR_ZJU.pdf">our report</a> for more details.
+Please refer to Chapter 2.2 in <a href="Resources/TSR_ZJU.pdf">our report</a> for more details.
 ##### Obtaining the data set
 We ran the fast ellipse detection algorithm on 12 traffic sign pictures, namely "Left-Turn", "Stop", etc. This way, all the data we capture are all tagged and containing only the ROI. For the all 5730 datas we have, 4500 were used as the training set, and the rest verification set.
 ###### Demension Reduction
@@ -39,10 +39,10 @@ We use first normalize our raw image data to 40-by-40 grayscale matrices. Then r
 ###### Building the Back-propagation Model
 There are 4 layers in our model, one input, two hidden and one output. Input layer has 388 nodes, 300100 nodes for each hidden layer and 13 nodes for output layer (one negative class).
 ###### Precision
-![Precision](Resources/precision.png)
+![Precision](Resources/precision.PNG)
 
 ### Vehicle Control Finite-State-Machine
-![System FSM](/Resources/fsm.png)
+![System FSM](Resources/fsm.PNG)
 *Note: The code for controlling the vehicle is not included in this repository*
 
 ## Compiling the Project
