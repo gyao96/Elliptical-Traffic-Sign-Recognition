@@ -53,22 +53,29 @@ There are 4 layers in our model, one input, two hidden and one output. Input lay
 
 ----------------------------------------------
 ## Compiling the Project
+
 #### getDataSet
 For building dataSet
+
 #### getVideoSet
 You maybe need some videos before "getDataSet"
+
 #### server
 main function
+
 #### usage
 * cd ./server <br>
 * cmake . <br>
 * make <br>
 * ./test <br>
 * Server will start while waiting for client. Enjoy it!
+
 #### Environment
 * Ubuntu 16.04
 * opencv2.4.9
+
 --------------------------------------------------
+
 ## Ref
 1. [The German Traffic Sign Recognition Benchmark: A multi-class classification competition. Proceedings of International Joint Conference on Neural Networks, San Jose, California, USA, July 31 – August 5, 2011](Ref/06033395.pdf)
 1. [Michele Fornaciari, Andrea Prati, Rita Cucchiara, A fast and effective ellipse detector for embedded vision applications Pattern Recognition, Volume 47, Issue 11, November 2014, Pages 3693-3708, ISSN 0031-3203](Ref/HSI.pdf)
