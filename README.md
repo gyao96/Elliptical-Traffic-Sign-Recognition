@@ -52,7 +52,6 @@ There are 4 layers in our model, one input, two hidden and one output. Input lay
 *Note: The code for controlling the vehicle is not included in this repository*
 
 ----------------------------------------------
-
 ## Compiling the Project
 #### getDataSet
 For building dataSet
@@ -69,11 +68,9 @@ main function
 #### Environment
 * Ubuntu 16.04
 * opencv2.4.9
-
 --------------------------------------------------
-
 ## Ref
 1. [The German Traffic Sign Recognition Benchmark: A multi-class classification competition. Proceedings of International Joint Conference on Neural Networks, San Jose, California, USA, July 31 – August 5, 2011](Ref/06033395.pdf)
 1. [Michele Fornaciari, Andrea Prati, Rita Cucchiara, A fast and effective ellipse detector for embedded vision applications Pattern Recognition, Volume 47, Issue 11, November 2014, Pages 3693-3708, ISSN 0031-3203](Ref/HSI.pdf)
 1. [Road Sign Detection and Recognition System for Real-Time Embedded Applications. International Conference on Electrical, Control and Computer Engineering Pahang, Malaysia, June 21-22, 2011](Ref/hsi2.pdf)
-1. [Fornaciari M, Prati A, Cucchiara R. A fast and effective ellipse detector for embedded vision applications[J\]. Pattern Recognition, 2014, 47(11): 3693-3708.](Ref/TSR.pdf)
+1. [Fornaciari M, Prati A, Cucchiara R. A fast and effective ellipse detector for embedded vision applications\[J\]. Pattern Recognition, 2014, 47(11): 3693-3708.](Ref/TSR.pdf)
