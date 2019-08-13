@@ -31,7 +31,7 @@ In short, the algorithm can be decomposed to the following steps:
 The overall running speed of segmenting one frame is between 5 to 15 ms, which is much more efficient than traditional Hough-transform method.
 
 ### Training
-Please refer to Chapter 2.2 in <a href="/Resources/TSR.pdf">our report</a> for more details.
+Please refer to Chapter 2.2 in <a href="/Resources/TSR_ZJU.pdf">our report</a> for more details.
 ##### Obtaining the data set
 We ran the fast ellipse detection algorithm on 12 traffic sign pictures, namely "Left-Turn", "Stop", etc. This way, all the data we capture are all tagged and containing only the ROI. For the all 5730 datas we have, 4500 were used as the training set, and the rest verification set.
 ###### Demension Reduction
@@ -66,4 +66,4 @@ main function
 1. [The German Traffic Sign Recognition Benchmark: A multi-class classification competition. Proceedings of International Joint Conference on Neural Networks, San Jose, California, USA, July 31 – August 5, 2011](Ref/06033395.pdf)
 1. [Michele Fornaciari, Andrea Prati, Rita Cucchiara, A fast and effective ellipse detector for embedded vision applications Pattern Recognition, Volume 47, Issue 11, November 2014, Pages 3693-3708, ISSN 0031-3203](Ref/HSI.pdf)
 1. [Road Sign Detection and Recognition System for Real-Time Embedded Applications. International Conference on Electrical, Control and Computer Engineering Pahang, Malaysia, June 21-22, 2011](Ref/hsi2.pdf)
-1. [Fornaciari M, Prati A, Cucchiara R. A fast and effective ellipse detector for embedded vision applications[J]. Pattern Recognition, 2014, 47(11): 3693-3708.](Ref/TSR.pdf)
+1. [Fornaciari M, Prati A, Cucchiara R. A fast and effective ellipse detector for embedded vision applications[J\]. Pattern Recognition, 2014, 47(11): 3693-3708.](Ref/TSR.pdf)
